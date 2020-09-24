@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="theme/assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="<?= Yii::$app->request->baseUrl ?>/img/profile-img.JPG" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Python Flask APIs &amp;UI/UX Designer &amp; Web Developer.</h3>
