@@ -43,7 +43,7 @@ AppAsset::register($this);
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="<?= Yii::$app->request->baseUrl ?>/img/prof.JPG" alt="" class="img-fluid rounded-circle">
+        <img src="<?= Yii::$app->request->baseUrl ?>/img/profile.JFIF" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="<?= url::to(['site/index'])?>">Jordan type</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://twitter.com/type_jordan" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -58,9 +58,9 @@ AppAsset::register($this);
         <ul>
           <li class="active"><a href="<?= url::to(['site/index'])?>"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="<?= url::to(['site/about'])?>"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#"><i class="bx bx-book-content"></i> Portfolio</a></li>
-          <li><a href="#"><i class="bx bx-server"></i> Services</a></li>
+          <li><a href="<?= url::to(['resume/index'])?>"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="<?= url::to(['portfolio/portfolio'])?>"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <li><a href="<?= url::to(['services/services'])?>"><i class="bx bx-server"></i> Services</a></li>
           <li><a href="<?= url::to(['site/contact'])?>"><i class="bx bx-envelope"></i> Contact</a></li>
 
         </ul>

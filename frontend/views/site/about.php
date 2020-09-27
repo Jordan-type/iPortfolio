@@ -5,7 +5,7 @@
 use yii\helpers\Html;
 
 $this->title = 'About Me';
-$this->params['breadcrumbs'][] = $this->title;
+
 ?>
 <main id="main">
 <!-- ======= About Section ======= -->
@@ -35,8 +35,8 @@ $this->params['breadcrumbs'][] = $this->title;
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 30</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B in Inform</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 27</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Bachelors in Information Tech</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> jordanmuthemba25@gmail.com</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
                 </ul>
